@@ -16,13 +16,15 @@ Because applications release new versions frequently, I created a scheduler on H
 
 Firebase has a built in REST API, but as a way of practicing and learning about REST APIs, I created a quick and simple wrapper in ExpressJS that pulled the application list from Firebase and returned a single application through a given ID within the database.
 
-### Version Checkers
+# Components
+
+## Version Checkers
 
 If you'd like to deploy the server functions to retrieve data from your own Firebase database, you will need to make sure you update `application-monitor-version-checkers\index.js` with your own Firebase API application connector. For instructions on how to do this, please see the firebase documentation:
 
 > https://firebase.google.com/docs/web/setup
 
-### Database
+## Database
 
 You can use your google account, or create a free one, to log in to the firebase console:
 
@@ -67,7 +69,7 @@ Using a Realtime Database, the structure of the data should be as follows:
 
 The platform variable will determine which icon and view controller for the application details to show in the iOS application and only accepts "Windows", "Mac", or "Windows and Mac".
 
-### iOS Application
+## iOS Application
 
 If you'd like to deploy the server functions to retrieve data from your own Firebase database, you will need to make sure you download the GoogleService-Info.plist file for your database and add it to the root folder of your application. For instructions on how to do this, please see the firebase documentation:
 
@@ -75,13 +77,22 @@ If you'd like to deploy the server functions to retrieve data from your own Fire
 
 The current version does not include notifications. Push notifications can be implemented with your apple developer account.
 
-### REST API
+## REST API
 
 If you'd like to deploy the REST API to get applications from your own Firebase database, you will need to make sure you update `application-monitor-REST-API\index.js` with your own Firebase API application connector. For instructions on how to do this, please see the firebase documentation:
 
 > https://firebase.google.com/docs/web/setup
 
-### Web Application
+## Web Application
+
+### Usage:
+
+In order to use the app, visit a demo installation at:
+
+> https://teresajbocchini.github.io/application-monitor
+
+### Deployment:
+
 
 ###### In order to deploy the web client on your own server:
 

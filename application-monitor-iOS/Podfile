@@ -1,0 +1,7 @@
+target 'Application Monitor' do
+	use_frameworks!
+    
+    # Pods for Firebase
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+end

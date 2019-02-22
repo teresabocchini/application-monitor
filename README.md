@@ -92,7 +92,7 @@ If you'd like to deploy the REST API to get applications from your own Firebase 
 5. Once the build process completes successfully, take the contents of the generated `build` folder and upload it to your server.
 6. Visit `index.html` in a web browser.
 
-For development purposes, you can run `npm start` in the `client` folder to run a local server and open it a web browser.
+For development purposes, you can run `npm start` in the `application-monitor-web` folder to run a local server and open it a web browser.
 
 ###### In order to deploy using Github pages:
 
@@ -107,7 +107,7 @@ For example:
 > https://teresajbocchini.github.io/application-monitor
 
 4. In the `application-monitor-web` folder, run `npm install`.
-5. In the `client` folder, run `npm run deploy`.
+5. In the `application-monitor-web` folder, run `npm run deploy`.
 6. Once it completes successfully, visit the website at:
 
 > https://\<GITHUB ACCOUNT\>.github.io/\<REPOSITORY NAME\>

@@ -2,6 +2,7 @@
   "name": "application-monitor-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://teresajbocchini.github.io/application-monitor/",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "firebase": "^5.8.2",

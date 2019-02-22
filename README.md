@@ -32,36 +32,36 @@ Using a Realtime Database, the structure of the data should be as follows:
 
 ```
 {
-"ApplicationList": [
-null,
-{
-"lastMacVersion": "String",
-"lastWindowsVersion": "String",
-"name": "String",
-"newMacVersion": true,
-"newWindowsVersion": false,
-"platform": "Windows",
-"url": "https://www.google.com"
-},
-{
-"lastMacVersion": "String",
-"lastWindowsVersion": "String",
-"name": "String",
-"newMacVersion": false,
-"newWindowsVersion": true,
-"platform": "Mac",
-"url": "https://www.google.com"
-},
-{
-"lastMacVersion": "String",
-"lastWindowsVersion": "String",
-"name": "String",
-"newMacVersion": true,
-"newWindowsVersion": true,
-"platform": "Windows and Mac",
-"url": "https://www.google.com"
-}
-]
+  "ApplicationList": [
+    null,
+    {
+      "lastMacVersion": "String",
+      "lastWindowsVersion": "String",
+      "name": "String",
+      "newMacVersion": true,
+      "newWindowsVersion": false,
+      "platform": "Windows",
+      "url": "https://www.google.com"
+    },
+    {
+      "lastMacVersion": "String",
+      "lastWindowsVersion": "String",
+      "name": "String",
+      "newMacVersion": false,
+      "newWindowsVersion": true,
+      "platform": "Mac",
+      "url": "https://www.google.com"
+    },
+    {
+      "lastMacVersion": "String",
+      "lastWindowsVersion": "String",
+      "name": "String",
+      "newMacVersion": true,
+      "newWindowsVersion": true,
+      "platform": "Windows and Mac",
+      "url": "https://www.google.com"
+    }
+  ]
 }
 ```
 
